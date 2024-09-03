@@ -87,6 +87,6 @@ server.on("request", async (req, res) => {
 const port = process.env.PORT || 8080;
 server.listen(port, () =>
   console.log(
-    `Server running at https://localhost:${port} - make sure you're on httpS, not http`
-  )
+    `Server running at https://localhost:${port} - make sure you're on httpS, not http`,
+  ),
 );
